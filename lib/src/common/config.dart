@@ -7,10 +7,10 @@ class Config {
   Config._();
 
   ///Subscription key for the endpoint/region you plan to use
-  static late final String subscriptionKey;
+  static late String subscriptionKey;
 
   ///Region identifier i.e. [centralus]
-  static late final String region;
+  static late String region;
 
   ///Initialise the config by setting endpoint region and subscription key
   static void init(
